@@ -65,7 +65,17 @@
                 height: 45px;
                 margin: 0px auto;
                 border-radius: 20px;
-                padding: 0;
+                padding: auto;
+            }
+            input {
+                _border-style: none;
+                position: relative;
+                top: -5px;
+                height: 30px;
+                width: 400px;
+                margin: 0;
+                border-style: hidden;
+                border-style: none;
             }
             .icon {
                 margin:5px 10px;
@@ -78,7 +88,7 @@
                 _background-color: aquamarine;
                 padding-left:300px ;
             }
-            button{
+            .buttons_bar button {
                 margin:10px auto;
                 height: 40px;
                 width: 140px;
@@ -92,24 +102,56 @@
                 _background-color: #bad61c;
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
             }
-            .footer {
-                padding: 0px 20px;
-                height: 60px;
+            .bottom-bars{
+                background-color: #F2F2F2;
+                padding: 5px 5px;
                 width: 100%;
-                background-color: #e9edf0;
+                height: 60px;
                 font-size:20px;
                 font-family:Verdana, Geneva, Tahoma, sans-serif;
-                margin: auto;
-                line-height:50px;
-                color: rgb(37, 39, 46);
+                margin: 0px 0px 0px 0px;
+                line-height:10px;
             }
-            input{
+            .bottom-bar1 {
+                _background-color: #db1010;
+                _height: 35px;
+                margin: 0;
+                padding: 5px;
+            }
+            .bottom-bar2 {
+                _background-color: #F2F2F2;
+                _background-color: #f5de0d;
+                margin: 0;
                 height: 20px;
-                width: 400px;
-                
-                _border: 1px solid #c1d3e2;
-                border: 0;
             }
+            .bottom-bars ul {
+                margin: 0;
+                padding: 0;
+
+            }
+            .bottom-bars ul li{
+              margin: 0;
+              padding: 0;
+
+            }
+            .bottom-bars ul li a {
+                margin: 0;
+                padding: 0px 20px 0px 20px;
+            }
+            
+            .left-links {
+                float: left;
+                _background-color: #4ff50d;
+                _height: 30px;
+                margin: 0;
+            }
+            .right-links {
+                float: right;
+                margin: 0;
+            }
+          
+             /*   _line-height:50px;  */
+          
         </style>
 
     </head>
@@ -142,13 +184,13 @@
                     </div>
                     <div class="language"><p>Google offerd in: العربية</p>
                     </div>               
-        <footer>
-            <div class="footer">
-                <p><a href="#" >Palestine</a></p>
-
+        <div class="bottom-bars">
+            <div class="bottom-bar1">
+                
+                <p>Palestine</p>
             </div>
-            <div  class="footer">
-                    <div class="links" style="float:left">
+            <div  class="bottom-bar2">
+                    <div class="left-links" style="float:left">
                             <ul>
                                 <li><a href="#">Advertising</a></li>
                                 <li><a href="#">Business</a> </li>
@@ -156,7 +198,7 @@
                                 <li><a href="#">How Search works</a></li>
                             </ul>
                     </div>
-                    <div class="links">
+                    <div class="right-links">
                             <ul>
                                 <li><a href="#">Privacy</a></li>
                                 <li><a href="#">Terms</a> </li>
@@ -165,6 +207,6 @@
                     </div>
             </div>        
         </div>        
-    </footer>
+    
 </body>
 </html>
