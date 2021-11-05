@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@600&display=swap');
+body::before {
+content: "";
+display: table;
+height: 35px;
+}
+.bg-cu-main-color {
+    background-color: #680d11;
+}
+.bg-cu-black{
+    background-color: #000;
+
+}
+.showcase {
+    height: 500px;
+}
+.showcase img {
+    height: 500px;
+}
+.navbar-brand img {
+    height: 60px;
+}
+.showcase h1{
+    font-family: changa, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 4rem;
+    
+}
+.showcase h4 {
+    font-family: changa,Verdana, Geneva, Tahoma, sans-serif;
+}
