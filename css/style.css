@@ -23,19 +23,17 @@ height: 40px;
 .showcase h4 {
     font-family: changa,Verdana, Geneva, Tahoma, sans-serif;
 }
-.showcase img{
-    max-height1:100% ;
-}
+
 .card {
-    height: 400px;
+    height: 500px;
 }
 .card .img-holder{
-    height: 200px;
+    
     overflow: hidden;
     text-align: center;
     padding-top: 10px;
 }
-.card .img-holder img{
+
     
     
     
